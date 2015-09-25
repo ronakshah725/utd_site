@@ -1,0 +1,214 @@
+<?xml version="1.0" ?>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN“ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+  <head>
+    <title>Ronak Shah</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Ronak's homepage" />
+
+    <!-- StyleSheet -->
+    <link rel="stylesheet" type="text/css" href="css/first.css">
+
+    <!-- Script File -->
+    <script src="js/firstscript.js"></script>
+	      
+  </head>
+
+
+
+<body onload= "clickCounter()" >
+
+<header>
+  	<h2>
+
+ 		<img width="175" height="200"  id="float_right" src="res/ronak.png"></img> 
+  		Welcome to Ronak's Homepage
+
+  	</h2></br></br>
+</header>
+
+
+<section>
+	<ul>
+		<li >Currently pursuing<a href="http://www.cs.utdallas.edu">MS in CS from UT Dallas</a>
+		</li>
+	</br>
+		<li>Coursework
+			<ol>
+				<li>Advanced Operating Systems</li>
+				<li>Web Programming Languages</li>
+				<li>Database Design</li>
+			</ol>
+		</li>
+	</br>
+		<li>
+			<nav>
+				<p>Connect with me on 
+  				<a href="https://github.com/ronakshah725">GitHub</a> |
+  				<a href="linkedin.com/in/ronakshah725">LinkedIn</a> |
+  				<a href="https://www.facebook.com/ronakshah725">Facebook</a> 
+  			</p>
+			</nav>
+		</li>
+	</br>
+		<li>
+			<dl>
+		  		<dt><b>Co-Founder</b> <i>Opine Solutions</i></dt>
+		  		</br>
+		  		<dd>
+				Led a digital market research startup, right from idea-stage to production.</br>Collaborated with a team of 8, to develop, deploy and market the Android </br>app ‘Opine’ and the web application for survey panel management.
+				</dd>
+			</dl>
+		</li>	
+	</br>
+		<li class="list_mod">
+			<table id="collapse">
+			<colgroup>
+			<col style="width: 200px">
+			<col style="width: 200px">
+			<col style="width: 200px">
+			</colgroup>
+			  <tr>
+			    <th colspan="3"><p>Education</p></th>
+			  </tr>
+			  <tr>
+			    <td id="color_cell">MS in Computer Science</td>
+			    <td>University of Texas at Dallas</td>
+			    <td>GPA: 3.76/4.00</td>
+			  </tr>
+			  <tr>
+			    <td id="color_cell">B.Engg in Computer Engineering</td>
+			    <td>University of Mumbai</td>
+			    <td>GPA: 65.6%</td>
+			  </tr>
+			  <tr>
+			    <td id="color_cell">High School</td>
+			    <td>KC College</td>
+			    <td>GPA: 86.5%</td>
+			  </tr>
+			</table>		
+		</li>
+	</br>
+		<li>
+			<p>Travels (2014 - 2015)</p>
+
+			<figure>
+				<img src="res/image_map.jpg" border="0" width="575" height="431" usemap="#travelled_loc"/>
+				<map name="travelled_loc" id="travelled_loc">
+
+					<area id="mumbai" alt="Mumbai" title="Mumbai" href="https://en.wikipedia.org/wiki/Mumbai" shape="rect" coords="24,8,341,207" style="outline:none;" target="_self"     />
+
+					<area id="dallas" alt="dallas" title="Dallas" href="https://en.wikipedia.org/wiki/Dallas" shape="rect" coords="389,5,709,212" style="outline:none;" target="_self"     />
+
+					<area id="chicago" alt="chicago" title="Chicago" href="https://en.wikipedia.org/wiki/Chicago" shape="rect" coords="6,226,359,428" style="outline:none;" target="_self"     />
+
+					<area id="dubai" alt="dubai" title="Dubai" href="https://en.wikipedia.org/wiki/Dubai" shape="rect" coords="375,224,726,425" style="outline:none;" target="_self"     />
+
+				</map>
+			</figure>
+		</li>	
+	</br>
+		<li>
+			<button onclick="getLocation()"><b>Click to provide your coordinates</b></button>
+
+			<p id="loc"></p>
+			</br>
+			</br>		
+
+		</li>
+	</br>
+		<li><p>Give me a thumbs up !!</p>
+			<img id="drag_img" src="res/thumbs.png" draggable="true" ondragstart="drag(event)" width="100" height="120">
+
+			<div id="drag" ondrop="drop(event)" ondragover="allowDrop(event)">
+				Drag Image Here 
+			</div>	
+			
+		</li>
+	</br>
+		<li>
+			<div id="result">View Count = 1</div>
+
+
+		</li>	
+
+
+
+
+
+
+
+		<li>
+			<div>
+			<p><b>Feedback</b></p>
+			<form action="" method="post"  id="myForm">
+
+  				Name:  <input required type="text" name="fname"  placeholder="Enter full name "/>
+	  			</br>
+	  			</br>
+
+				Email: <input required type="email" name="email"  placeholder="Enter a valid email "/>
+	  			</br> 
+	  			</br> 				
+
+
+	  			Birthday : <input type="date" name="bday"/>
+	  			</br>
+	  			</br>
+
+	  			Telephone :
+	  			<input type="tel" required name="usrtel"placeholder="Enter 10 digit #"/>
+	  			</br>
+	  			</br>
+
+
+	  			<!-- CheckBox -->
+	  			<input type="checkbox" id="purple"/>
+	  			<label for="purple">Connect via phone</label>
+	  			</br>
+	  			</br>
+
+	  			Favourite Color:
+	  			<input type="radio" name="color" value="mediumpurple"/> Purple
+	  			<input type="radio" name="color" value="lightgreen"/> Green
+	  			<input type="radio" name="color" value="lightblue" /> Blue
+	  			</br>
+	  			</br>
+
+  				Satisfaction (Only between 1 to 5): <input type="number" name="satisfaction" min="1" max="5"/>
+	  			</br>
+	  			</br>
+
+	  			Do you think I am good at my stuff ? 
+	  			<input type="range" name="points" min="1" max="10"/>
+	  			</br>
+	  			</br>
+
+	  			 <input required type="submit" name="submit" id="submit" value="Done">&nbsp <input type="button" onclick="resetForm()" value="Reset">
+	  			</br>
+	  			</br>
+
+	  		</form>
+	  		</div>
+		</li>
+	</br>
+
+
+		
+
+	</ul>	
+
+</section>
+<p></p>
+
+
+
+<footer class="footer">
+ <small>© Copyright 2020, Ronak Shah</small>
+</footer>
+  </body>
+
+  </html>
+
