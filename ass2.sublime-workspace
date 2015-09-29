@@ -1,0 +1,342 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"fo",
+				"form	Tag"
+			],
+			[
+				"te",
+				"text-decoration"
+			],
+			[
+				"l",
+				"li	Tag"
+			],
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"paddi",
+				"padding-right"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"he",
+				"header	Tag"
+			],
+			[
+				"list",
+				"listOfFiles"
+			],
+			[
+				"get",
+				"getBytes"
+			],
+			[
+				"ch",
+				"checkPoints_B"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/firststyle.css",
+			"settings":
+			{
+				"buffer_size": 984,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"list ",
+				"Package Control: List Packages"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"svn",
+				"SVN: Diff"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 153.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/Assignment2_akv140030/index.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/bootstrap_tester/index.html",
+		"/Users/ronakshahmac/Library/Application Support/Sublime Text 2/Packages/User/SVN.errors.log",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/index 2.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/nish.css",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/nish.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/sa.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/css/first.css",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/index.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/index1.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/form.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/res/bg_white_grad.jpg",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/first.css",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/custom.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/projects/extr/trunk/my-app/ext/packages/sencha-charts/src/draw/sprite/Tick.js",
+		"/Users/ronakshahmac/Downloads/error..txt",
+		"/var/folders/bd/lzhc1f0n6xs3757qhvvsh4v80000gn/T/sublime-svn-1433455649/SVN",
+		"/var/folders/bd/lzhc1f0n6xs3757qhvvsh4v80000gn/T/sublime-svn-1433455601/SVN",
+		"/var/folders/bd/lzhc1f0n6xs3757qhvvsh4v80000gn/T/sublime-svn-1433455542/SVN",
+		"/var/folders/bd/lzhc1f0n6xs3757qhvvsh4v80000gn/T/sublime-svn-1433455502/SVN",
+		"/Applications/XAMPP/xamppfiles/htdocs/projects/extjs/trunk/app.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/test/index.html",
+		"/Users/ronakshahmac/Dropbox/utd/python/pythRevisor.txt",
+		"/Users/ronakshahmac/Dropbox/utd/python/pyt_1.py",
+		"/Users/ronakshahmac/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/B0FC17CF-0E58-4C00-B77D-E45F46B12011/WhatsApp Chat with Rutvi S.txt",
+		"/Users/ronakshahmac/hashcat-0.47/rockyou.txt",
+		"/Volumes/Seagate Expansion Drive/dev_part/java eclipse/ws2/javaAlgo/src/LegacyFiles/RemoveDuplicates.java",
+		"/Users/ronakshahmac/Dropbox/utd/resume/resume_ks1.txt",
+		"/Users/ronakshahmac/repos/controller_test/files/wde.txt",
+		"/Users/ronakshahmac/repos/controller_test/files/out.txt",
+		"/Users/ronakshahmac/Downloads/irouter.java",
+		"/Users/ronakshahmac/Dropbox/utd/netsec/project/NewFolder/AES.java",
+		"/Users/ronakshahmac/Dropbox/utd/netsec/project/NewFolder/server.java",
+		"/Users/ronakshahmac/Downloads/custom-view/src/com/example/android/customviews/MainActivity.java",
+		"/Users/ronakshahmac/Downloads/a.java",
+		"/Users/ronakshahmac/Library/Containers/com.apple.mail/Data/Library/Mail Downloads/6578D82B-4F35-4B09-BCF6-192AF1691B0E/RaceStartActivity.java",
+		"/Users/ronakshahmac/Dropbox/utd/netsec/untitled folder/server.c",
+		"/Users/ronakshahmac/repos/c_workspace/ctemplate.c",
+		"/Users/ronakshahmac/repos/c_workspace/print.c",
+		"/Users/ronakshahmac/repos/c_workspace/fileIO.c",
+		"/Users/ronakshahmac/Dropbox/utd/netsec/untitled folder/client.c",
+		"/Users/ronakshahmac/Desktop/validation.java"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"form",
+			"ev",
+			"res",
+			"x",
+			"phone",
+			"phone.",
+			"My",
+			"form",
+			"show",
+			"885",
+			"?",
+			"(06,01",
+			"300"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"*"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 5623,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1040,
+								1040
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 164.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/firststyle.css",
+					"settings":
+					{
+						"buffer_size": 984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								598,
+								598
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 341.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 203.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 178.0,
+	"status_bar_visible": true
+}
