@@ -36,8 +36,12 @@
         </br>
 
         <p>Rendering images using HTML 5 Canvas</p>
+      </br>
+      </br>
+      </br>
+      </br>
 
-        <canvas id="myCanvas" width="600" height="250" style="border:1px solid #000000;">
+        <canvas id="myCanvas" width="650" height="250" >
         Your browser does not support the HTML5 canvas tag.
         </canvas>
 
@@ -56,43 +60,56 @@
 
         //Top box///////////////////////////////  
 
-        ctx.strokeRect(100,10 , 450, 93);
+        ctx.strokeRect(100,10 , 500, 93);
         ctx.translate(100, 10);             //change the origin to box1 rectangle
-        ctx.fillText("HTML 1", 20 , 20);    //draw text html1
+        ctx.fillText("HTML 1", 15 , 25);    //draw text html1
 
-        ctx.fillStyle = "#FFFF00";
-        ctx.strokeStyle = '#000000';
-        ctx.fillRect(80, 30, 300, 45);
+        
+              
+        ctx.strokeRect(100, 30, 300, 45);   //first make border
+        ctx.fillStyle = "#FFFF00";        //then make rectangle
+        ctx.fillRect(100, 30, 300, 45);
+        ctx.fillStyle = "#000000";        //text 22
+        ctx.fillText("2 2", 120, 54); 
+
+
+        ctx.moveTo(120, 56);               //line for 22
+        ctx.lineTo(134, 56);
+        ctx.stroke();                     
+
+        ctx.restore();
 
 
 
-
+        //bottom box//////////////////////////////
+        ctx.strokeRect(100,125 , 500, 115);
+        ctx.translate(100, 125); 
+        ctx.strokeRect(15, 15, 270, 45);   //first make border
+        ctx.fillStyle = "#FFFF00";        //then make rectangle
+        ctx.fillRect(15, 15, 270, 45);
+        ctx.fillStyle = "#000000";        //text 4444
+        ctx.fillText("4 4 4 4", 30, 39);
 
 
         
+        ctx.strokeRect(285, 15, 115, 45);
+        ctx.fillText("5 5 5 5 5", 285, 39);
 
 
-
+        ctx.strokeRect(80, 60, 320, 45);
+        ctx.fillText("6 6 6 6 6 6", 90, 85);
         ctx.restore();
-        //bottom box//////////////////////////////
-        ctx.strokeRect(100,125 , 450, 115);
 
 
         </script>     
 
 
-
-
-
-
-
-
-
-
-
-
-      </br>
-      </br>
+        </br>
+        </br> 
+        </br>
+        </br>
+        </br>
+        </br>
         <footer class="footer">
          <small> © Copyright 2020, Ronak Shah</small>
         </footer>
