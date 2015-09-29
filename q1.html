@@ -1,48 +1,101 @@
 <?xml version="1.0" ?>
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN“ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN“ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
-  <head>
-    <title>Ronak Shah</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Ronak's homepage" />
-
-    <!-- StyleSheet -->
-    <link rel="stylesheet" type="text/css" href="css/firststyle.css">
-
-    <!-- Script File -->
-    <script src="js/firstscript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	      
-  </head>
+    <head>
+        <title>Ronak Shah</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Ronak's homepage" />
+        <!-- StyleSheet -->
+        <link rel="stylesheet" type="text/css" href="css/firststyle.css">
+        <!-- Script File -->
+        <script src="js/firstscript.js"></script>
+    
+      </head>
 
 
 
-<body onload= "clickCounter()" >
+    <body >
 
-<header>
-  	<h2>
+        <header>
+            <h2>
+                <img width="175" height="200"  id="float_right" src="res/ronak.png"></img> 
+                  Welcome to Ronak's Homepage
+            </h2>
+            </br>
+            <nav>
+                  <a id="navlinks" href="index.html">Home</a> | 
+                  <a id="navlinks" href="q1.html">Render Images</a> |
+                  <a id="navlinks" href="q3.html">JQuery Events</a> |
+                  <a id="navlinks" href="q2.html">Advanced Table</a> |
+                  <a id="navlinks" href="q4.html">Shopping Cart</a> 
+            </nav>
+        </header>
 
- 		<img width="175" height="200"  id="float_right" src="res/ronak.png"></img> 
-  		Welcome to Ronak's Homepage
+        </br>
 
-  	</h2>
-  	</br>
-	<nav >
-      <a id="navlinks" href="index.html">Home</a>	|	
-      <a id="navlinks" href="q1.html">Render Images</a> |
-			<a id="navlinks" href="q3.html">JQuery Events</a> |
-			<a id="navlinks" href="q2.html">Advanced Table</a> |
-			<a id="navlinks" href="q4.html">Shopping Cart</a> 
+        <p>Rendering images using HTML 5 Canvas</p>
 
-		
-	</nav>
+        <canvas id="myCanvas" width="600" height="250" style="border:1px solid #000000;">
+        Your browser does not support the HTML5 canvas tag.
+        </canvas>
 
-</header>
+        <script>
 
-<footer class="footer">
- <small> © Copyright 2020, Ronak Shah</small>
-</footer>
-  </body>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
 
-  </html>
+        //dashed rectangle 333/////////////
+        ctx.setLineDash([6]);
+        ctx.strokeRect(20,105 , 35, 15);
+        ctx.setLineDash([]);
+        ctx.font = "20px";
+        ctx.fillText("3 3 3", 27 , 115);
+        ctx.save();                         // save the state
+
+        //Top box///////////////////////////////  
+
+        ctx.strokeRect(100,10 , 450, 93);
+        ctx.translate(100, 10);             //change the origin to box1 rectangle
+        ctx.fillText("HTML 1", 20 , 20);    //draw text html1
+
+        ctx.fillStyle = "#FFFF00";
+        ctx.strokeStyle = '#000000';
+        ctx.fillRect(80, 30, 300, 45);
+
+
+
+
+
+
+        
+
+
+
+        ctx.restore();
+        //bottom box//////////////////////////////
+        ctx.strokeRect(100,125 , 450, 115);
+
+
+        </script>     
+
+
+
+
+
+
+
+
+
+
+
+
+      </br>
+      </br>
+        <footer class="footer">
+         <small> © Copyright 2020, Ronak Shah</small>
+        </footer>
+    </body>
+
+</html>
