@@ -1,48 +1,288 @@
 <?xml version="1.0" ?>
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN“ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN“ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 
   <head>
     <title>Ronak Shah</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Ronak's homepage" />
-
     <!-- StyleSheet -->
     <link rel="stylesheet" type="text/css" href="css/firststyle.css">
-
     <!-- Script File -->
+
     <script src="js/firstscript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>       
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>   
+    <script src="js/q2.js"></script>
+
+    
   </head>
 
 
 
-<body onload= "clickCounter()" >
+  <body onload= "clickCounter()" >
 
-<header>
-    <h2>
+  <header>
+      <h2>
+      <img width="165" height="190"  id="float_right" src="res/ronak.png"></img> 
+        Welcome to Ronak's Homepage
+      </h2>
+      </br>
+    <nav >
+        <a id="navlinks" href="index.html">Home</a> |
+        <a id="navlinks" href="q1.html">Render Images</a> |
+        <a id="navlinks" href="q2.html">JQuery Events</a> |
+        <a id="navlinks" href="q3.html">Advanced Table</a> |
+        <a id="navlinks" href="q4.html">Shopping Cart</a> 
+    </nav>
+  </header>
 
-    <img width="175" height="200"  id="float_right" src="res/ronak.png"></img> 
-      Welcome to Ronak's Homepage
 
-    </h2>
+  <section>
+    <ul >
+
+
+      <li >Currently pursuing <button id = "hide">Show</button> <button id = "show">Hide</button>
+        <div id = "ms" style="display: none;">
+        </br>
+        <a href="http://www.cs.utdallas.edu">MS in CS from UT Dallas</a>
+        </div>
+      </li>
     </br>
-  <nav >
-      <a id="navlinks" href="index.html">Home</a> | 
-      <a id="navlinks" href="q1.html">Render Images</a> |
-      <a id="navlinks" href="q3.html">JQuery Events</a> |
-      <a id="navlinks" href="q2.html">Advanced Table</a> |
-      <a id="navlinks" href="q4.html">Shopping Cart</a> 
+
+
+      <li> 
+          Coursework <b id = "triangle" >Show..</b>
+
+          <div id="toggle_block" style="display:none;">
+          <ol>
+                <li><p>Advanced Operating Systems</p></li>
+                <li><p>Web Programming Languages</p></li>
+                <li><p>Advanced Computer Networks</p></li>
+                <li><p>Analysis of Algorithms</p></li>
+                <li><p>Network Security</p></li>
+                <li><p>Software Defined Networks</p></li>
+          </ol>
+          </div>
+      </li>
+    
+
+
+      <li>
+        <nav>
+          <p>Connect with me on 
+            <a href="https://github.com/ronakshah725">GitHub</a> |
+            <a href="linkedin.com/in/ronakshah725">LinkedIn</a> |
+            <a href="https://www.facebook.com/ronakshah725">Facebook</a> 
+          </p>
+        </nav>
+      </li>
+    
+
+
+      <li>
+        <dl>
+            <dt><b>Co-Founder</b> <i>Opine Solutions</i></dt>
+            </br>
+            <dd>
+          Led a digital market research startup, right from idea-stage to production.</br>Collaborated with a team of 8, to develop, deploy and market the Android </br>app Opine and the web application for survey panel management.
+          </dd>
+        </dl>
+      </li> 
+    
+
+
+  <!-- 
+        <li class="list_mod">
+          <table id="collapse">
+          <colgroup>
+          <col style="width: 200px">
+          <col style="width: 200px">
+          <col style="width: 200px">
+          </colgroup>
+            <tr>
+              <th colspan="3"><p>Education</p></th>
+            </tr>
+            <tr>
+              <td id="color_cell">MS in Computer Science</td>
+              <td>University of Texas at Dallas</td>
+              <td>GPA: 3.76/4.00</td>
+            </tr>
+            <tr>
+              <td id="color_cell">B.Engg in Computer Engineering</td>
+              <td>University of Mumbai</td>
+              <td>GPA: 65.6%</td>
+            </tr>
+            <tr>
+              <td id="color_cell">High School</td>
+              <td>KC College</td>
+              <td>GPA: 86.5%</td>
+            </tr>
+          </table>    
+        </li>
+      </br> -->
+
+    </br>
+    </br>
+
+<!-- 
+      <li>
+        <p>Travels (2014 - 2015)</p>
+
+        <figure>
+          <img src="res/image_map.jpg" border="0" width="575" height="431" usemap="#travelled_loc"/>
+          <map name="travelled_loc" id="travelled_loc">
+
+            <area id="mumbai" alt="Mumbai" title="Mumbai" href="https://en.wikipedia.org/wiki/Mumbai" shape="rect" coords="24,8,341,207" style="outline:none;" target="_self"     />
+
+            <area id="dallas" alt="dallas" title="Dallas" href="https://en.wikipedia.org/wiki/Dallas" shape="rect" coords="389,5,709,212" style="outline:none;" target="_self"     />
+
+            <area id="chicago" alt="chicago" title="Chicago" href="https://en.wikipedia.org/wiki/Chicago" shape="rect" coords="6,226,359,428" style="outline:none;" target="_self"     />
+
+            <area id="dubai" alt="dubai" title="Dubai" href="https://en.wikipedia.org/wiki/Dubai" shape="rect" coords="375,224,726,425" style="outline:none;" target="_self"     />
+
+          </map>
+        </figure>
+      </li> 
+    </br>
+ -->
+
+
+      <li>FADE EFFECTS !! </br>
+        <script>
+                  $(document).ready(function(){
+                        $(".btn1").dblclick(function(){
+                            $("#fad").fadeOut()
+                        });
+                        $(".btn2").dblclick(function(){
+                            $("#fad").fadeIn();
+                        });
+                        $(".btn3").dblclick(function(){
+                            $("#fad1").fadeTo(1000, 0.4);
+                        });
+                        $(".btn4").dblclick(function(){
+                            $("#fad").fadeToggle();
+                        });
+                  });
+        </script>
+        <h2>Double Click the buttons</h2>
+        
+        <button class="btn1">Fade Out</button>
+        <button class="btn2">Fade In</button>
+        <button class="btn3">Fade To</button>
+        <button class="btn4">Fade Toggle</button>
+        </br>
+        </br>
+
+        <div id="fad">Fading effects Fading effects Fading effects</div></br>
+        <div id="fad1">Fading Toggle Fading Toggle Fading Toggle </div>
+
+
+      </li>
+    </br>
+
+    <li> <p>Mouse Animation (hover pointer/ remove pointer from list)</p>
+      <ul>
+      <li class="animate" style="color:blue">Hello</li>
+      <li class="animate" style="color:blue">World</li>
+      </ul>
+    </li>
+  </br>
+
+  <li>Key Press, Key down, key up </br></br>
+    Keyword checker:<input type="text" id="t1">
+    <p id="p5">Keypresses: <span id="s1">0</span></p><br><br>
+    Type Here<input type="text" id="t2"><br><br>
+
+  </li>
+
+
+
+  <li>BLUR
+    
+        <div id="header" style="background-color:#CD5C5C;" width="100px">
+        <h1 class="center" value='8'> <center><b>JAVASCRIPT</b></center></h1>
+        <h4 class="center1"><center>The ultimate experience of Web Programming</center></h4>
+        </div>
+        <button id="btn1"><right>Show Text</right></button>
+        <button id="btn2"><right>Show HTML</right></button>
+            <script>
+            $("#btn1").click(function(){
+            $(".center").blur();
+            alert("Text: " + $(".center").text());
+             });
+             $("#btn2").click(function(){
+            $(".center").blur();
+                alert("HTML: " + $(".center").html());
+              });
+            </script>
+
+    <li>
+
+
+
+</li>CHANGE
+      <p>Which is your favourite word?: <input type="text" id="test" value=" "></p>
+      <button id="bt1">Show Value</button>
+      <script>
+      $('input[type=text]').change(function(){
+      $("#bt1").click(function(){
+      alert("Value: " + $("#test").val());
+      });
+      });
+      </script>
+
+    </li>
+
 
     
-  </nav>
 
-</header>
+  <li>FOCUS
+      <p id="para1">Thought<b>for the day?</b></p>
+      <p id="para2"></p><input id="g"/>
+      <script>
+      $("#g").focus(function(){
+      $("#para1").text("Thank you");
+      $("#para2").html("<b>Hello</b>");
+      $("#g").val("Do Programming");
+      });
+      </script>
 
-<footer class="footer">
- <small> © Copyright 2020, Ronak Shah</small>
-</footer>
+
+  </li>
+
+</br>
+
+
+      <li><p>Give me a thumbs up !!</p>
+        <img id="drag_img" src="res/thumbs.png" draggable="true" ondragstart="drag(event)" width="100" height="120">
+
+        <div id="drag" ondrop="drop(event)" ondragover="allowDrop(event)">
+          Drag Image Here 
+        </div>  
+        
+      </li>
+    </br>
+
+
+
+
+     
+
+
+      
+
+    </ul> 
+
+  </section>
+  <p></p>
+
+
+
+  <footer class="footer">
+   <small> © Copyright 2020, Ronak Shah</small>
+  </footer>
   </body>
 
-  </html>
+</html>
+
