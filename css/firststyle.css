@@ -37,9 +37,9 @@ a:hover {
 	text-decoration: underline;
 }
 
-#navlinks{
+#navlinks:hover{
 
-	background-color: #FDFDFD;
+	background-color: #AEAEAE;
 }
 
 #float_right{
