@@ -9,22 +9,27 @@
     <meta name="description" content="Ronak's homepage" />
 
     <!-- StyleSheet -->
+    
     <link rel="stylesheet" type="text/css" href="css/firststyle.css">
+    <link rel="stylesheet" type="text/css" href="css/q4.css">
 
     <!-- Script File -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/firstscript.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>	      
+    <script src="js/q4.js"></script>
+    
+    <script src="js/jquery.livequery.js"></script>	      
   </head>
 
 
 
-<body onload= "clickCounter()" >
+<body>
 
-<header>
+<header align="center">
   	<h2>
 
- 		<img width="175" height="200"  id="float_right" src="res/ronak.png"></img> 
-  		Welcome to Ronak's Homepage
+ 
+  		Welcome to Online Shopping 
 
   	</h2>
   	</br>
@@ -37,6 +42,108 @@
     </nav>
 
 </header>
+
+  <div align="left">
+    
+    <div id="wrap" align="left">
+      
+      <ul>
+        <li id="1" class="target">
+          <img src="res/1.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div>
+            <span class="name">Watch</span>: $<span class="price">80</span> 
+          </div>
+        </li>
+        
+        <li id="2">
+          <img src="res/2.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Lounge Chair</span>: $<span class="price">1100</span></div>
+        </li>
+        <li id="3">
+          <img src="res/3.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Ceiling Light</span>: $<span class="price">350</span></div>
+        </li>
+        
+        <li id="4">
+          <img src="res/4.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Bike</span>: $<span class="price">2000</span></div>
+        </li>
+        <li id="5">
+          <img src="res/5.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div> <span class="name">Speaker</span>: $<span class="price">150</span></div>
+        </li>
+        
+        <li id="6">
+          <img src="res/6.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Bag</span>: $<span class="price">350</span> </div>
+        </li>
+
+        <li id="7">
+          <img src="res/7.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Laptop</span>: $<span class="price">800</span> </div>
+        </li>
+
+        <li id="8">
+          <img src="res/8.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Tea Set</span>: $<span class="price">50</span> </div>
+        </li>
+
+        <li id="9">
+          <img src="res/9.jpg" class="items" height="120" alt="" />
+          
+          <br clear="all" />
+          <div><span class="name">Suited Bear</span>: $<span class="price">50</span> </div>
+        </li>
+          
+      </ul>
+      
+      <br clear="all" />
+      
+      
+    
+    </div>
+    
+    <div id="left_bar"> 
+      
+      <form action="#" id="cart_form" name="cart_form">
+      
+      <div class="cart-info"></div>
+      
+      <div class="cart-total">
+      
+        <b>Total Charges:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b> $<span>0</span>
+        
+        <input type="hidden" name="total-hidden-charges" id="total-hidden-charges" value="0" />
+      </div>
+      </br>
+      <button type="submit" id="Submit">CHECKOUT</button>
+
+      
+      </form>
+      <br>
+
+    </div> 
+
+    
+  </div>
+
+
 
 <footer class="footer">
  <small> © Copyright 2020, Ronak Shah</small>
