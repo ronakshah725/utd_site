@@ -5,9 +5,9 @@ $(document).keyup(function(e){
               {
                    
                      $(".colorMeUp").unbind("mousemove");
-                     $(".colorMeUp").children().css("background-color",'white');
-                     $(".colorMeUp").children().css("color",'black');
-                      //e.target.style.backgroundColor = "white";
+                     $(".colorMeUp").css("background-color",'white');
+                     $(".colorMeUp").css("color",'black');
+
                }
         
          return true;
@@ -41,6 +41,15 @@ $(document).keyup(function(e){
  
 
  
+$(document).ready(function(){
+
+$("#tblMembers").on('mouseleave',function(){
+
+                     $("#tblMembers").css("background-color",'white');
+                     $("#tblMembers").css("color",'black');
+});
+
+});
  
  
  

@@ -78,11 +78,11 @@ $(document).ready(function(){
 
 $(document).ready(function(){
   $("#t2").keydown(function(){
-     $( "#t2" ).animate({
-    width:"toggle"}).animate({height:"toggle"}).animate({opacity:0.4});
+     $( "#t2" ).css("background-color","green").animate({
+    width:"250px"}, 1000).animate({height:"20px "}).animate({opacity:0.2});
   });
 $("#t2").keyup(function(){
-$("#t2").css("background-color","grey");
+$("#t2").stop(true).css("background-color","white");
 
 });
 

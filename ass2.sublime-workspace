@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"tab",
+				"tableClass"
+			],
+			[
+				"ta",
+				"tableClass"
+			],
+			[
+				"to",
+				"toggle_block"
+			],
+			[
 				"ba",
 				"background-color"
 			],
@@ -63,22 +75,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 5623,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "css/firststyle.css",
-			"settings":
-			{
-				"buffer_size": 984,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -128,6 +124,20 @@
 	},
 	"file_history":
 	[
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/q4.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/q2.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/q3.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/index.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/q1.html",
+		"/Users/ronakshahmac/Dropbox/utd/aos/causal_delivery/Net.java",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/Assignment2_akv140030/shoppingcart.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/nish.html",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/js/q3.js",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/js/q4.js",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/js/jquery.livequery.min.js",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/css/firststyle.css",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/css/q4.css",
+		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/utd_site/js/q2.js",
 		"/Users/ronakshahmac/Dropbox/utd/wpl/ass2/Assignment2_akv140030/index.html",
 		"/Users/ronakshahmac/Dropbox/utd/wpl/ass1/bootstrap_tester/index.html",
 		"/Users/ronakshahmac/Library/Application Support/Sublime Text 2/Packages/User/SVN.errors.log",
@@ -180,6 +190,7 @@
 		"height": 0.0,
 		"where_history":
 		[
+			""
 		]
 	},
 	"find_state":
@@ -187,6 +198,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fff",
+			"border",
+			"color",
+			"button",
+			"submit",
+			"the ultimate ",
+			"remove.png",
+			"remove",
+			"remove.png",
+			"remove.[ng",
+			"remove",
+			"shopp",
+			"#wrap",
+			"color",
+			"td",
+			"tr",
+			"table",
+			"tr",
+			"lastKeyAlt",
+			"Show..",
+			"More..",
+			"Homepage",
 			"form",
 			"ev",
 			"res",
@@ -207,73 +240,20 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Hide..",
 			"*"
 		],
 		"reverse": false,
-		"show_context": true,
+		"show_context": false,
 		"use_buffer2": true,
 		"whole_word": false,
-		"wrap": true
+		"wrap": false
 	},
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"settings":
-					{
-						"buffer_size": 5623,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1040,
-								1040
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 164.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css/firststyle.css",
-					"settings":
-					{
-						"buffer_size": 984,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								598,
-								598
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 341.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
